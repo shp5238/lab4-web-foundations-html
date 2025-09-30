@@ -187,3 +187,41 @@ form#contactForm button {
   font-weight: 600;
   display: block; 
 }
+
+summary{
+  display: flex; 
+  justify-content: center;
+}
+
+section{
+  display: block;
+}
+
+figure{
+  display: block;
+  margin: auto; 
+}
+
+table {   
+  margin: 2%;
+  display: block;
+}
+
+th, td {
+  border: 1px solid #ccc; 
+  padding: 2%; 
+  text-align: center;
+}
+
+meter, #pop{
+  display: block;  
+  /*justify-content: center;*/
+  margin: auto;
+  color: white; 
+}
+
+article{
+  text-align: center; 
+  margin: 2%; 
+  max-width: 600px; 
+}

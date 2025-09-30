@@ -10,63 +10,119 @@
 <title>Website Template</title>
 </head>
 <body>
-  <nav>
-  <ul>
-    <li><a href="home.html" class="active">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <li><a href="product.html">PRODUCT</a></li>
-    <li><a href="contact.html">CONTACT</a></li>
-  </ul>
-</nav>
+    <!-- FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-<header>
-<h1 class="top_tag"> Top Tagline</h1>
-<h1> Bottom Tagline </h1>
-<p> Some additional description.</p> 
-  <div class="h_buttons">
-    <button class="type1">LEARN MORE</button>
-    <button class="type2">CONTACT US</button>
-  </div>
-</header>
-  
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="product.html" class="active">PRODUCT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
 
+    <header>
+      <hgroup>
+        <h2 class="top_tag"> Our Product</h2>
+      </hgroup>
+    </header>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Featured prod -->
+    <section>
+      <article>
+        <h3>Latest Release of Product!</h3>
+        <figure>
+          <picture>
+            <source srcset="./assets/html_meme.webp" type="image/webp">
 
-<div class="box">
-  <br>
-  <h3 style="text-align: center">Services</h3>
-  <div id="cards">
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
- </div>
-</div>
+            <img src="./assets/html_meme.jpg" alt="Funny html meme" width="200">
+          </picture>
+        </figure>
 
+        <p> This product is so good for performance and reliability. </p>
 
+        <details>
+          <summary>
+            <table>
+              <caption> Product Specifications</caption>
+              <colgroup>
+                <col span="1">
+                <col span="1">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Processor</td>
+                  <td>QuantumCore <sup>™</sup></td>
+                </tr>
+                <tr>
+                  <td>Battery</td>
+                  <td>4000 mAh <sub>Li-ion</sub></td>
+                </tr>
+                <tr>
+                  <td>Memory Usage</td>
+                  <td>150 <var>±10</var> MB</td>
+                </tr>
+                <tr>
+                  <td>Version Number</td>
+                  <td>4.2.1</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">*Specifications are subject to change</td>
+                </tr>
+              </tfoot>
+            </table>
+          </summary>
+        </details>
 
-<footer>
-  <!-- Insert Logo here-->
-  <!-- Copyright -->
-  <br>
-  
-  <!-- Fake download progress bar -->
-  <button onclick="download()" id="privacy_pol"> 
-    Download Privacy Policy 
-  </button>
-  <progress id="bar" value="0" max="100"></progress>
-  <span id="percent">0%</span>
-  <p> Copyright 2025 &copy; </p>
-  
-</footer>
+        <p><del>Old version now discontinued</del> <ins>Updated Alpha now available</ins></p>
+
+        <label id="pop">Popularity</label>
+        <meter value="0.8" min="0" max="1">Popularity</meter>
+        <br>
+
+      </article>
+    </section>
+
+    <footer>
+      <!-- Insert Logo here-->
+      <!-- Copyright -->
+      <br>
+      <br>
+      <!-- Fake download progress bar -->
+      <!-- onclick="download()" -->
+      <button onclick="download()" id="privacy_pol">
+        Download Privacy Policy
+      </button>
+      <progress id="bar" value="0" max="100"></progress>
+      <span id="percent">0%</span>
+      <noscript>Your browser does not support JavaScript!</noscript>
+
+      <address>
+        <pre>
+
+          Visit us at:
+          Street
+          City,
+          State ZIP, USA
+        </pre>
+      </address>
+
+      <br>
+      <hr style="border: 1px dotted #12C1F2">
+
+      <p> Copyright <time datetime="2025"> 2025 </time>&copy; </p>
+      <br>
+
+    </footer>
 </body>
 </html>
