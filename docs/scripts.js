@@ -17,7 +17,7 @@ const download = () => {
   //progress bar starts, then instant download
   setTimeout(() => {
   const priv_pol = document.createElement('a'); //create a obj
-    priv_pol.href = 'privacy_policy.pdf'; // define path
+    priv_pol.href = './assets/privacy_policy.pdf'; // define path
     priv_pol.download = 'privacy_policy.pdf'; // download & click
     priv_pol.click();
   }, 500);

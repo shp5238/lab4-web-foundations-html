@@ -10,63 +10,79 @@
 <title>Website Template</title>
 </head>
 <body>
-  <nav>
-  <ul>
-    <li><a href="home.html" class="active">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <li><a href="contact.html">PRODUCT</a></li>
-    <li><a href="about.contact">CONTACT</a></li>
-  </ul>
-</nav>
-
-<header>
-<h1 class="top_tag"> Top Tagline</h1>
-<h1> Bottom Tagline </h1>
-<p> Some additional description.</p> 
-  <div class="h_buttons">
-    <button class="type1">LEARN MORE</button>
-    <button class="type2">CONTACT US</button>
-  </div>
-</header>
-  
+    <!-- FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html" class="active">ABOUT</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
 
-<div class="box">
-  <br>
-  <h3 style="text-align: center">Services</h3>
-  <div id="cards">
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
-    <div class="card">
-    <br>
-    </div>
- </div>
-</div>
+    <header>
+    <h2 class="top_tag"> Contact [Company Name]</h2>
+      
+      <form id="contactForm">
+      <div class="form-container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name"
+               data-required="true" data-maxlength="50">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="username@email.com"
+               data-required="true">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type message here."
+                  data-required="true" data-maxlength="500"></textarea>
+
+        <button type="submit" class="type1">Send Message</button>
+      </div>
+    </form>
 
 
+      
+    </header>
 
-<footer>
-  <!-- Insert Logo here-->
-  <!-- Copyright -->
-  <br>
-  
-  <!-- Fake download progress bar -->
-  <button onclick="download()" id="privacy_pol"> 
-    Download Privacy Policy 
-  </button>
-  <progress id="bar" value="0" max="100"></progress>
-  <span id="percent">0%</span>
-  <p> Copyright 2025 &copy; </p>
-  
-</footer>
+
+    <footer>
+      <!-- Insert Logo here-->
+      <!-- Copyright -->
+      <br>
+      <br>
+      <!-- Fake download progress bar -->
+      <!-- onclick="download()" -->
+      <button onclick="download()" id="privacy_pol">
+        Download Privacy Policy
+      </button>
+      <progress id="bar" value="0" max="100"></progress>
+      <span id="percent">0%</span>
+      <noscript>Your browser does not support JavaScript!</noscript>
+      
+      
+      <address>
+        <pre>
+          
+          Visit us at:
+          Street
+          City,
+          State ZIP, USA
+        </pre>
+      </address>
+      
+      <br>
+      <hr style="border: 1px dotted #12C1F2">
+     
+      
+      
+      <p> Copyright <time datetime="2025"> 2025 </time>&copy; </p>
+      <br>
+      
+    </footer>
 </body>
 </html>
