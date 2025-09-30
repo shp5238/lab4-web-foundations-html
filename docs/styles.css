@@ -225,3 +225,8 @@ article{
   margin: 2%; 
   max-width: 600px; 
 }
+
+#prod{
+  display: flex; 
+  text-align: center;
+}
