@@ -227,7 +227,7 @@ article{
 }
 
 #prod{
-  display: flex;
+  display: block;
   jsutify-content: center; 
   text-align: center;
 }
