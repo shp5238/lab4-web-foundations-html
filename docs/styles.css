@@ -188,14 +188,21 @@ form#contactForm button {
   display: block; 
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  text-align: center;
+  max-width: 600px;
+}
+
 #prod {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   gap: 1rem;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 figure {
@@ -207,6 +214,5 @@ summary, table {
 }
 
 meter, #pop {
-  display: block;
   margin: auto;
 }
