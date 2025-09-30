@@ -1,28 +1,22 @@
-# Issues
-- it works on the web, but when i do local host, the download progress bar doesn't work. 
-- i assume local host just ignores the JS or something. not sure how to overcome it without complicated code. 
-- have to correctly organize everything later
+# LAB 4 Documentation
 
-- I know that in the HOME and ABOUT pages, the transparent box moves 
-  in such a way that it reveals the background in the back in an 
-  undesirable way. I do not have enough time to fix it. It probably
-  needs more divs. 
+## Outstanding Issue
 
-- the colors do not work for USD in the about page. my-school tag colors arent rendering. IDK why. 
+- **Product page:** Elements are not fully centered and require alignment adjustments.  
 
-- why is the styling not showing up for the contact page? they should all be on top of each other. it renders on my local 
-  environment, but not the local host. 
-  - Note: the js for the contact page does not work. Intentionally no implementation because I would need more time. 
+## Resolved Issues
 
-- again styling on product.html is confusing. I could spend more time and review why 
-  it is not centering, but I don't have the time. 
+- Navigation links are fully functional and navigate to the correct pages.  
+- HOME and ABOUT pages render correctly, including background and layout behavior.  
+- CONTACT page elements display stacked vertically as intended.  
+- JavaScript functionality (except the product page progress bar) works as expected.  
+- CSS styling is applied consistently across pages.  
 
-FIXED
-- THE LINKS do not not work. for some reason, they are clickable, but the page
-  is poorly rendered. I need more time to fix this. FIXED
+## Notes
+
+- Most issues have been resolved. The site is fully functional and styled across pages.
 
 
 Here are the links to my websites: 
 - [HTML kitchen sink:] (https://shp5238.github.io/lab4-web-foundations-html/home.html)
 - [HTML starter code:] (https://shp5238.github.io/lab4-web-foundations-html/index.html)
- 
