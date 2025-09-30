@@ -23,6 +23,6 @@ FIXED
 
 
 Here are the links to my websites: 
-- HTML kitchen sink: https://shp5238.github.io/lab4-web-foundations-html/home.html
-- HTML starter code: https://shp5238.github.io/lab4-web-foundations-html/index.html
+- [HTML kitchen sink:] (https://shp5238.github.io/lab4-web-foundations-html/home.html)
+- [HTML starter code:] (https://shp5238.github.io/lab4-web-foundations-html/index.html)
  
